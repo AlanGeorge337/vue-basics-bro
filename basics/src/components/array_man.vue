@@ -11,15 +11,17 @@
 <script>
     export default {
         name: "array_man",
-        data: {
-            items: [
-            { message: 'Apple' },
-            { message: 'Banana' },
-            { message: 'Strawberry' },
-            { message: 'Orange' },
-            { message: 'Watermelon' },
-            { message: 'Grape' },
+        data() {
+            return{
+                items: [
+                { message: 'Apple' },
+                { message: 'Banana' },
+                { message: 'Strawberry' },
+                { message: 'Orange' },
+                { message: 'Watermelon' },
+                { message: 'Grape' },
             ]
+            }
         } 
     };
 </script>

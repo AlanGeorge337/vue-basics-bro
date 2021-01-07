@@ -1,7 +1,9 @@
 <template>
     <div>
         <Child :greeting="greeting" :icecream="icecream" />
+        <array_man> </array_man>
     </div>
+
 </template>
 
 <script>
@@ -15,6 +17,7 @@
                 icecream: ["Chocolate", "Vanilla", "Strawberry", "Pistachio"],
             };
         },
+        
         components: {
             Child, array_man,
         },

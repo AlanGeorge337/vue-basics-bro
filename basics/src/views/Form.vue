@@ -12,12 +12,12 @@
 <script>
 export default {
     name:"Form",
-    data(){
-        return() =>{
-            email: "",
-            password: "",
-        };
-    },
+    // data(){
+    //     return() => {
+    //         email: "",
+    //         password; "",
+    //     }
+    // },
 };
 </script>
 
