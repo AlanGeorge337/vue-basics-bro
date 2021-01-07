@@ -6,7 +6,7 @@
 
 <script>
     import Child from "../components/Child";
-    import button_counter from "../components/Button_counter";
+    import array_man from "../components/array_man";
     
     export default {
         data(){
@@ -16,7 +16,7 @@
             };
         },
         components: {
-            Child, Button_counter,
+            Child, array_man,
         },
     };
 
