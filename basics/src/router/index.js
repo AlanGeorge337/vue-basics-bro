@@ -25,7 +25,8 @@ const routes = [
    
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Form.vue"),
-  }
+  },
+  
 ];
 
 const router = new VueRouter({

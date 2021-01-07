@@ -6,6 +6,7 @@
 
 <script>
     import Child from "../components/Child";
+    import button_counter from "../components/Button_counter";
     
     export default {
         data(){
@@ -15,7 +16,7 @@
             };
         },
         components: {
-            Child,
+            Child, Button_counter,
         },
     };
 
