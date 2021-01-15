@@ -1,22 +1,19 @@
 <template>
     <div>
-        <ul id="cheap_shark">
+        <!-- <ul id="maps_and_info">
             <li v-for="item in items" :key="item.message">
             {{ item.message }}
             </li>
-        </ul>
+        </ul> -->
+        
     </div>
 </template>
 
 <script>
     export default {
-        name: "cheap-shark",
-        
-    
-       
-       
-       
-       
+        name: "maps_and_info",
+     
+
        // name: "array_man",
         // data() {
         //     return{
